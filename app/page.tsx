@@ -8,7 +8,7 @@ import { MobileNav } from "./components/MobileNav";
 export default function Home() {
   return (
     <main className="">
-      <div className="bg-black 2xl:px-[12vw] lg:px-10 px-5 pb-28">
+      <div className="bg-black xl:px-[12vw] lg:px-10 px-5 pb-28">
         <div className="hidden lg:block">
           <Navbar />
         </div>

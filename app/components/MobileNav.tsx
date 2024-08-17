@@ -24,7 +24,7 @@ export const MobileNav = () => {
         </div>
       </div>
       {state == "on" && (
-        <div className="absolute bg-darkBlack w-auto px-5 z-50">
+        <div className="absolute bg-darkBlack w-full px-5 z-50">
           <div className="gap-4 items-center text-center py-7 flex">
             <a className=" btn hover:bg-deskreehover bg-deskree rounded-md text-lg sm:px-12 px-16">
               Login
