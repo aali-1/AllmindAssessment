@@ -3,7 +3,7 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <div>
-      <div className="footer flex lg:flex-row flex-col 2xl:px-[12vw] p-10 text-neutral-400 text-md">
+      <div className="footer flex lg:flex-row flex-col xl:px-[12vw] p-10 text-neutral-400 text-md">
         <div className="lg:w-2/5 w-3/4 p-2">
           <Image alt="white logo" src="/deskree.png" width={20} height={20} />
           <p className="pt-3">
@@ -47,7 +47,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="2xl:px-[12vw]">
+      <div className="xl:px-[12vw] lg:px-10 px-5">
         <p className="text-neutral-400 pb-20">
           © Copyright 2024, Deskree Technologies
         </p>
