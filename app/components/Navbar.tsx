@@ -17,7 +17,7 @@ export const Navbar = () => {
           </a>
         </div>
 
-        <div className="navbar-center hidden xl:flex gap-4 -m-[120px]">
+        <div className="navbar-center hidden xl:flex gap-4 -m-44">
           <ul className="menu menu-horizontal text-lg">
             <li>
               <div
