@@ -7,7 +7,7 @@ export const MobileNav = () => {
   const [state, setState] = useState("off");
   return (
     <div>
-      <div className="navbar  bg-base-100 py-5 text-lg">
+      <div className="navbar bg-base-100 py-5 text-lg">
         <div className="flex-1 navbar-start">
           <a href="#">
             <Image alt="Logo" src="/logo.svg" width={130} height={24} />
@@ -24,12 +24,12 @@ export const MobileNav = () => {
         </div>
       </div>
       {state == "on" && (
-        <div className="absolute bg-darkBlack w-full px-10 z-50">
+        <div className="absolute bg-darkBlack w-auto px-5 z-50">
           <div className="gap-4 items-center text-center py-7 flex">
-            <a className=" btn hover:bg-deskreehover bg-deskree rounded-md text-lg px-16">
+            <a className=" btn hover:bg-deskreehover bg-deskree rounded-md text-lg sm:px-12 px-16">
               Login
             </a>
-            <a className="btn btn-outline border rounded-md px-16 text-lg hover:bg-white bg-neutral-950 border-neutral-600">
+            <a className="btn btn-outline border rounded-md sm:px-12 px-16 text-lg hover:bg-white bg-neutral-950 border-neutral-600">
               Signup
             </a>
           </div>
