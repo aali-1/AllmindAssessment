@@ -194,7 +194,7 @@ export default function Home() {
         </div>
       </div>
       <hr className="text-neutral-600"></hr>
-      <div className="sm:hidden md:block">
+      <div className="hidden md:block">
         <Footer />
       </div>
     </main>
